@@ -1,0 +1,43 @@
+section{
+    margin: auto;
+    margin-top: 210px;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 700px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#top{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    top: 0;
+    left: 0;
+}
+
+#bottom{
+    position: absolute;
+    color: honeydew;
+    font-size: 35px;
+    bottom: 0;
+    right: 0;
+}
+
+#hover{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 35%;
+    border: solid 3px red;
+    border-radius: 10px;
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+}
+#hover:hover{
+    background-color: rgb(30, 177, 210);
+    color: black;
+}
